@@ -7,3 +7,9 @@ html,body{
     height: 800px;
     width: 100%;
 }
+@media screen and (max-width : 1000px){
+    .bg-img{
+        height: 1600px;
+        width: 100%;
+    }
+}
