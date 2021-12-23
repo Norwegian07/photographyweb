@@ -5,7 +5,7 @@ html,body{
 
 .bg-img{
     position: relative;
-    height: 800px;
+    height: 1000px;
     width: 100%;
 }
 .profile-img{
@@ -15,11 +15,11 @@ html,body{
     position: absolute;
 }
 .profile{
-    margin-top: -650px;
+    margin-top: -850px;
     margin-left: 200px;
 }
 .quote-place{
-    margin-top: -650px;
+    margin-top: -850px;
     margin-left: 500px; 
 }
 .quote{
@@ -32,6 +32,70 @@ html,body{
     font-style: italic;
     font-family: 'Times New Roman', serif;
 }
+h2{
+    color:white;
+    font-family: Verdana;
+    font-size: 26px;
+    position: absolute;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.head{
+    margin-top: 300px;
+    margin-left: 550px;
+  
+}
+.type1{
+    float: left;
+    position: relative;
+    color: white;
+    border: 1px solid white;
+    width: 350px;
+    height: 400px;
+    margin-top: 150px;
+    font-size: 26px;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 25px;
+    font-style: italic;
+    font-weight: bold;
+border: none;
+}
+.message{
+    color: white;
+    font-weight: normal;
+    padding-top: 100px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.name{
+    color: white;
+    position: absolute;
+    margin-left: 280px;
+margin-top: 250px;
+font-size: 18px;
+}
+/* navigation */
+.nav{
+    border: 1px solid white;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    text-align: right;
+    padding: 20px;
+    margin-top: -150px;
+    border: none;
+    margin-left: -100px;
+}
+.nav a{
+    font-size: 24px;
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+}
 
 
 
@@ -43,17 +107,13 @@ html,body{
 
 
 
-
-
-
-@media screen and (max-width : 1000px){
+/* @media screen and (max-width : 1000px){
     html,body{
         background-image: url(https://dm2306files.storage.live.com/y4mb9OcV7JBF-0FUjI6zcf_v5X7RRE1uDRq9WsEoYJ0hVC_0JcPXJINRviVeV80WjJMy3JXIAU7Wnziv0XVStu5y21z3Xt5F0XKgyV-0sJqX2uUrOA2x4v5EmDCqxTSO-ATfRX7pPcCAhu3PIwEUuVpEBFvPDB6ed2pfLoBYPMaAEwCBiWo1wk29qQp0EhPEjJW?width=1280&height=1920&cropmode=none);
         height: 1700px;
         width: 100%;
         position: relative;
-        background: no-repeat;
-        background-size: cover;
+        background-attachment: fixed;
     }
     .bg-img{
         display: none;
@@ -68,4 +128,4 @@ html,body{
         margin-top: -650px;
         margin-left: 200px;
     }
-}
+} */
