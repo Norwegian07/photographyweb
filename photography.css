@@ -37,11 +37,15 @@ position: absolute;
 
 
 
-
 @media screen and (max-width : 1000px){
     html,body{
         background-image: url(https://dm2306files.storage.live.com/y4muCr5YKggvzAm6JPFfeJkzxH9QkWt8VSjEevwkADNIy-XucAAYB-zGCAm2UwrBRR3f2QnZuJArPAG8DOtq2aJx23zxQUEFT-fxCQmvQ80_BgVoIoTE48DSwBbEhwPQ-x2cHaRjoSfNbUR9nD__tzNrhZYfhHkPeh4dccc5zKzOTerHPUam4hOU1YoMg0Ci5UO?width=1484&height=1920&cropmode=none);
         height: 1700px;
         width: 100%;
+        position: relative;
     }
+    .bg-img{
+        display: none;
+    }
+    
 }
