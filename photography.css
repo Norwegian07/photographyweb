@@ -1,6 +1,7 @@
 html,body{
     width: 100%;
     margin: auto;
+    background-color: black;
 }
 /* navigation */
 .nav{
@@ -37,7 +38,6 @@ html,body{
 }
 .profile{
     margin-top: -850px;
-    margin-left: 200px;
 }
 .name{
     color: white;
@@ -82,7 +82,7 @@ h2{
 }
 /* ===================================================================== */
 /* types of photography */
-.type1{
+.type1,.type3{
     float: left;
     position: relative;
     color: white;
@@ -107,7 +107,24 @@ border: none;
 }
 /* =================================================================== */
 
-
+/* ================footer================= */
+.social{
+    width: 45px;
+    height: 45px;
+    padding: 8.5px;
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    font-size: 22px;
+    text-align: center;
+    clear: both;
+    position: relative;
+}
+.footercontents{
+    padding-top: 20px;
+    color: white;
+}
 
 
 
@@ -137,10 +154,12 @@ border: none;
     }
    .profile{
        margin-top: 1000px;
+       margin-left: -100px;
    }
    .quote{
-       font-size: 20px;
+       font-size: 24px;
        margin-top: 50px;
+       margin-right: 100px;
    }
    h2{
        margin-top: 400px;
@@ -151,5 +170,14 @@ border: none;
        width: 100%;
     margin-left: -2px;
        height: 100px;
+   }
+   .type3{
+    margin-top: 600px;
+    width: 100%;
+ margin-left: -2px;
+       height: 600px;
+   }
+   .name{
+    margin-left: 170px;
    }
 }
