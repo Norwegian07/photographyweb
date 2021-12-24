@@ -152,7 +152,7 @@ border: none;
 @media screen and (max-width : 1000px){
     html,body{
         background-image: url(https://dm2306files.storage.live.com/y4mb9OcV7JBF-0FUjI6zcf_v5X7RRE1uDRq9WsEoYJ0hVC_0JcPXJINRviVeV80WjJMy3JXIAU7Wnziv0XVStu5y21z3Xt5F0XKgyV-0sJqX2uUrOA2x4v5EmDCqxTSO-ATfRX7pPcCAhu3PIwEUuVpEBFvPDB6ed2pfLoBYPMaAEwCBiWo1wk29qQp0EhPEjJW?width=1280&height=1920&cropmode=none);
-        height: 1700px;
+        height: auto;
         width: 100%;
         position: relative;
         background-attachment: fixed;
@@ -177,7 +177,10 @@ border: none;
    }
    h2{
        margin-top: 400px;
-       margin-left: -235px;
+       margin-left: -305px;
+       width: 500px;
+       text-align: center;
+       margin-bottom: -50px;
    }
    .type1{
        margin-top: 600px;
